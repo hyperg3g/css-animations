@@ -1,46 +1,103 @@
-/<!doctype html>
+/<!DOCTYPE html>
 <html>
 	<head>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+		<meta charset="utf-8" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+		/>
 
 		<title>CSS Animations</title>
 
-		<link rel="stylesheet" href="dist/reset.css">
-		<link rel="stylesheet" href="dist/reveal.css">
-		<link rel="stylesheet" href="dist/theme/customTheme.css">
+		<link rel="stylesheet" href="dist/reset.css" />
+		<link rel="stylesheet" href="dist/reveal.css" />
+		<link rel="stylesheet" href="dist/theme/customTheme.css" />
 
 		<!-- Theme used for syntax highlighted code -->
-		<link rel="stylesheet" href="plugin/highlight/monokai.css">
+		<link rel="stylesheet" href="plugin/highlight/monokai.css" />
 	</head>
 	<body>
 		<div class="reveal">
 			<div class="slides">
-				<section data-background-image="assets/slide-1-background.svg" data-background-size="15.9% 60%" data-background-position="right bottom">
-					<div style="height: 1080px; display: flex; justify-content: space-between; flex-direction: column;">
+				<!-- SLIDE 1 -->
+				<section
+					data-background-image="assets/slide-1-background.svg"
+					data-background-size="15.9% 60%"
+					data-background-position="right bottom"
+				>
+					<div
+						style="
+							height: 1080px;
+							display: flex;
+							justify-content: space-between;
+							flex-direction: column;
+						"
+					>
 						<img src="assets/dt-conf-logo.svg" width="496" height="53" />
 
-						<h1 style="font-weight: 800; font-size: 2.3em; text-align: left; text-transform: none;">Современные<br/>Frontend анимации</h1>
+						<h1 style="font-weight: 800; font-size: 2.3em; text-align: left">
+							Современные<br />Frontend анимации
+						</h1>
 
-						<div style="display: flex; gap: 63px; align-items: center;">
+						<div style="display: flex; gap: 63px; align-items: center">
 							<img src="assets/avatar.png" width="225" height="225" />
 
-							<div style="display: flex; flex-direction: column;">
-								<span style="font-size: 1.19em; color: #E30613; font-weight: 700; text-align: left; margin-bottom: 42px;">Андрей Вишняков</span>
+							<div style="display: flex; flex-direction: column">
+								<span
+									style="
+										font-size: 1.19em;
+										color: #e30613;
+										font-weight: 700;
+										text-align: left;
+										margin-bottom: 42px;
+									"
+									>Андрей Вишняков</span
+								>
 								<img src="assets/front-hashtag.svg" width="220" height="55" />
 							</div>
 						</div>
 					</div>
 				</section>
 
-				<section data-background-image="assets/slide-2-background.svg" data-background-size="26.25% 33.6%" data-background-position="left top">
-					<div style="height: 1080px; display: flex; align-items: center; gap: 40px;">
+				<!-- SLIDE 2 -->
+				<section
+					data-background-image="assets/slide-2-background.svg"
+					data-background-size="26.25% 33.6%"
+					data-background-position="left top"
+				>
+					<div
+						style="
+							height: 1080px;
+							display: flex;
+							align-items: center;
+							gap: 40px;
+						"
+					>
 						<img src="assets/slide-2-image.png" width="834" height="702" />
 
-						<div style="display: flex; flex-direction: column;">
-							<h2 style="font-family: Caveat; font-weight: 700; font-size: 1.7em; color: #E30613; text-transform: none; margin-bottom: 5px; text-align: left;">Рассказ про</h2>
-							
-							<div style="font-weight: 900; font-size: 1.7em; display: flex; flex-direction: column; text-align: left;">
+						<div style="display: flex; flex-direction: column">
+							<h2
+								style="
+									font-family: Caveat;
+									font-weight: 700;
+									font-size: 1.7em;
+									color: #e30613;
+									margin-bottom: 5px;
+									text-align: left;
+								"
+							>
+								Рассказ про
+							</h2>
+
+							<div
+								style="
+									font-weight: 900;
+									font-size: 1.7em;
+									display: flex;
+									flex-direction: column;
+									text-align: left;
+								"
+							>
 								<span class="fragment fade-up">Выбор анимаций,</span>
 								<span class="fragment fade-up">CSS трансформации</span>
 								<span class="fragment fade-up">и создание анимаций</span>
@@ -49,18 +106,44 @@
 					</div>
 				</section>
 
-				<section data-background-image="assets/slide-3-background.svg" data-background-size="9.5% 17.1%" data-background-position="bottom left">
+				<!-- SLIDE 3 -->
+				<section
+					data-background-image="assets/slide-3-background.svg"
+					data-background-size="9.5% 17.1%"
+					data-background-position="bottom left"
+				>
 					<section>
-						<div style="height: 1080px; display: flex; flex-direction: column; gap: 30px; align-items: center;">
-							<h2 style="font-size: 1.8em; font-weight: 900; text-transform: none;">12 принципов<br/>анимации дисней</h2>
+						<div
+							style="
+								height: 1080px;
+								display: flex;
+								flex-direction: column;
+								gap: 30px;
+								align-items: center;
+							"
+						>
+							<h2 style="font-size: 1.8em; font-weight: 900">
+								12 принципов<br />анимации дисней
+							</h2>
 
 							<img src="assets/principles-disney.gif" />
 						</div>
 					</section>
 
 					<section>
-						<div style="height: 1080px; display: flex; flex-direction: column; justify-content: space-between; align-items: center;">
-							<h2 style="font-size: 1.8em; font-weight: 900; text-transform: none;">Большая статья<br/> про UX анимации</h2>
+						<div
+							style="
+								height: 1080px;
+								display: flex;
+								flex-direction: column;
+								justify-content: space-between;
+								align-items: center;
+							"
+						>
+							<h2 style="font-size: 1.8em; font-weight: 900">
+								Большая статья<br />
+								про UX анимации
+							</h2>
 
 							<img src="assets/priciples.gif" />
 
@@ -69,77 +152,291 @@
 					</section>
 				</section>
 
+				<!-- SLIDE 4 -->
 				<section>
-					<section data-background-image="assets/slide-4-background.svg" data-background-size="11.9% 41.8%" data-background-position="right bottom">
-						<div style="height: 1080px; display: flex; gap: 100px; align-items: center;">
+					<section
+						data-background-image="assets/slide-4-background.svg"
+						data-background-size="11.9% 41.8%"
+						data-background-position="right bottom"
+					>
+						<div
+							style="
+								height: 1080px;
+								display: flex;
+								gap: 100px;
+								align-items: center;
+							"
+						>
 							<div>
-								<h2 style="font-size: 1.28em; margin-bottom: 30px; text-transform: none;">Для чего нужны анимации?</h2>
-								<ul style="font-weight: 700; margin: 0;">
-									<li class="fragment fade-up" style="margin-bottom: 10px;">Привлечение внимания пользователя</li>
-									<li class="fragment fade-up" style="margin-bottom: 10px;">Объяснение работы интерфейса</li>
-									<li class="fragment fade-up" style="margin-bottom: 10px;">ШОУ. Создание вау-эффекта</li>
+								<h2 style="font-size: 1.28em; margin-bottom: 30px">
+									Для чего нужны анимации?
+								</h2>
+								<ul style="font-weight: 700; margin: 0">
+									<li class="fragment fade-up" style="margin-bottom: 10px">
+										Привлечение внимания пользователя
+									</li>
+									<li class="fragment fade-up" style="margin-bottom: 10px">
+										Объяснение работы интерфейса
+									</li>
+									<li class="fragment fade-up" style="margin-bottom: 10px">
+										ШОУ. Создание вау-эффекта
+									</li>
 								</ul>
 							</div>
 							<img src="assets/slide-4-image.png" width="694" height="587" />
 						</div>
 					</section>
 
-					<section data-background-image="assets/slide-4-2-background.svg" data-background-size="22.4% 18.3%" data-background-position="right bottom">
-						<h2 class="fragment fade" style="font-size: 2em; text-transform: none; margin-bottom: 100px;">Привлечение внимания</h2>
-						<video style="border: 2px solid #1a1a1a;" src="assets/attention.mp4" data-autoplay loop/>
+					<section
+						data-background-image="assets/slide-4-2-background.svg"
+						data-background-size="22.4% 18.3%"
+						data-background-position="right bottom"
+					>
+						<h2
+							class="fragment fade"
+							style="font-size: 2em; margin-bottom: 100px"
+						>
+							Привлечение внимания
+						</h2>
+						<video
+							style="border: 2px solid #1a1a1a"
+							src="assets/attention.mp4"
+							data-autoplay
+							loop
+						/>
 					</section>
 
-					<section data-background-image="assets/slide-4-3-background.svg" data-background-size="11.2% 16.3%" data-background-position="98% bottom">
-						<h2 style="font-size: 2em; text-transform: none; margin-bottom: 100px;">Объяснение</h2>
-						<video style="border: 2px solid #1a1a1a;" src="assets/informative.mp4" data-autoplay loop/>
+					<section
+						data-background-image="assets/slide-4-3-background.svg"
+						data-background-size="11.2% 16.3%"
+						data-background-position="98% bottom"
+					>
+						<h2 style="font-size: 2em; margin-bottom: 100px">Объяснение</h2>
+						<video
+							style="border: 2px solid #1a1a1a"
+							src="assets/informative.mp4"
+							data-autoplay
+							loop
+						/>
 					</section>
 
-					<section data-background-image="assets/slide-4-3-background.svg" data-background-size="11.2% 16.3%" data-background-position="98% bottom">
-						<h2 style="font-size: 2em; text-transform: none; margin-bottom: 50px;">Или вот</h2>
-						<video style="border: 2px solid #1a1a1a;" width="520" src="assets/password.mp4" data-autoplay loop/>
+					<section
+						data-background-image="assets/slide-4-3-background.svg"
+						data-background-size="11.2% 16.3%"
+						data-background-position="98% bottom"
+					>
+						<h2 style="font-size: 2em; margin-bottom: 50px">Или вот</h2>
+						<video
+							style="border: 2px solid #1a1a1a"
+							width="520"
+							src="assets/password.mp4"
+							data-autoplay
+							loop
+						/>
 					</section>
 
-					<section data-background-image="assets/slide-4-4-background.svg" data-background-size="13.2% 20.5%" data-background-position="left top">
-						<h2 style="font-size: 2em; text-transform: none; margin-bottom: 50px;">Шоу</h2>
-						<video style="border: 2px solid #1a1a1a;" width="900" src="assets/woah.mp4" data-autoplay loop/>
+					<section
+						data-background-image="assets/slide-4-4-background.svg"
+						data-background-size="13.2% 20.5%"
+						data-background-position="left top"
+					>
+						<h2 style="font-size: 2em; margin-bottom: 50px">Шоу</h2>
+						<video
+							style="border: 2px solid #1a1a1a"
+							width="900"
+							src="assets/woah.mp4"
+							data-autoplay
+							loop
+						/>
 					</section>
 				</section>
 
+				<!-- SLIDE 5 -->
 				<section>
-					<section data-background-image="assets/slide-5-background.svg" data-background-size="13.4% 14.9%" data-background-position="right top">
-						<div style="height: 1080px; display: flex; justify-content: center; align-items: center;">
-							<h2 style="font-size: 2.28em; font-weight: 900; text-transform: none;">Длительность анимации</h2>
+					<section
+						data-background-image="assets/slide-5-background.svg"
+						data-background-size="13.4% 14.9%"
+						data-background-position="right top"
+					>
+						<div
+							style="
+								height: 1080px;
+								display: flex;
+								justify-content: center;
+								align-items: center;
+							"
+						>
+							<h2 style="font-size: 2.28em; font-weight: 900">
+								Длительность анимации
+							</h2>
 						</div>
 					</section>
 
-					<section data-background-image="assets/slide-5-background.svg" data-background-size="13.4% 14.9%" data-background-position="right top">
-						<div style="height: 1080px; display: flex; flex-direction: column; align-items: center; gap: 80px;">
-							<h2 style="font-size: 2em; text-transform: none;">Саккада (20-200мс)</h2>
-							<img style="border: 2px solid #1a1a1a;" width="1300" src="assets/madara-sharingan.gif" />
+					<section
+						data-background-image="assets/slide-5-background.svg"
+						data-background-size="13.4% 14.9%"
+						data-background-position="right top"
+					>
+						<div
+							style="
+								height: 1080px;
+								display: flex;
+								flex-direction: column;
+								align-items: center;
+								gap: 80px;
+							"
+						>
+							<h2 style="font-size: 2em">Саккада (20 - 200 мс)</h2>
+							<img
+								style="border: 2px solid #1a1a1a"
+								width="1300"
+								src="assets/madara-sharingan.gif"
+							/>
 						</div>
 					</section>
 
-					<section data-background-image="assets/slide-5-3-background.svg" data-background-size="13.75% 22%" data-background-position="left top">
-						<div style="height: 1080px; display: flex; flex-direction: column; align-items: center; gap: 80px;">
-							<h2 style="font-size: 2em; text-transform: none;">Фиксация</h2>
-							<img style="border: 2px solid #1a1a1a;" width="1000" src="assets/futurama.gif" />
+					<section
+						data-background-image="assets/slide-5-3-background.svg"
+						data-background-size="13.75% 22%"
+						data-background-position="left top"
+					>
+						<div
+							style="
+								height: 1080px;
+								display: flex;
+								flex-direction: column;
+								align-items: center;
+								gap: 80px;
+							"
+						>
+							<h2 style="font-size: 2em">Фиксация (100 - 500 мс)</h2>
+							<img
+								style="border: 2px solid #1a1a1a"
+								width="1000"
+								src="assets/futurama.gif"
+							/>
 						</div>
 					</section>
 				</section>
 
+				<!-- SLIDE 6 -->
 				<section>
 					<section>
-						<h2>В итоге</h2>
-						<ul>
-							<li class="fragment fade-up">Почти мгновенная 60 - 120мс</li>
-							<li class="fragment fade-up">Быстрая 120 - 400мс</li>
-							<li class="fragment fade-up">Нормальная 400 - 700мс</li>
-						</ul>
+						<div
+							style="
+								height: 1080px;
+								display: flex;
+								align-items: center;
+								gap: 157px;
+							"
+						>
+							<img src="assets/slide-6-image.png" width="816" height="726" />
+							<div style="text-align: left; position: relative">
+								<h2 style="font-size: 2.28em; margin-bottom: 71px">
+									Длительность<br />анимации
+								</h2>
+								<ul style="font-weight: 700">
+									<li class="fragment fade-up" style="margin-bottom: 18px">
+										Почти мгновенная 60 - 120мс
+									</li>
+									<li class="fragment fade-up" style="margin-bottom: 18px">
+										Быстрая 120 - 400мс
+									</li>
+									<li class="fragment fade-up">Нормальная 400 - 700мс</li>
+								</ul>
+								<img
+									src="assets/bracker-element.svg"
+									width="103"
+									height="410"
+									style="
+										position: absolute;
+										bottom: -263px;
+										right: -117px;
+										transform: rotate(45deg);
+									"
+								/>
+							</div>
+						</div>
 					</section>
 
-					<section>
-						<h2>Визуальный пример</h2>
+					<section
+						data-background-image="assets/slide-6-2-background.svg"
+						data-background-size="14.1% 22.9%"
+						data-background-position="left top"
+					>
+						<h2 style="font: 2.28em">Пример</h2>
 						<img src="assets/duration.gif" />
+					</section>
+				</section>
+
+				<!-- SLIDE 7 -->
+				<section>
+					<section
+						data-background-image="assets/slide-7-background.svg"
+						data-background-size="8.9% 16.4%"
+						data-background-position="left top"
+					>
+						<div
+							style="
+								height: 1080px;
+								display: flex;
+								justify-content: center;
+								flex-direction: column;
+								align-items: center;
+							"
+						>
+							<h2 style="font-size: 2.28em">Так как выбрать анимацию?</h2>
+							<span
+								style="font-size: 2.28em; font-family: Caveat; color: #e30613"
+								>На глаз :)</span
+							>
+						</div>
+					</section>
+
+					<section
+						data-background-image="assets/slide-7-2-background.svg"
+						data-background-size="12.6% 13.9%"
+						data-background-position="left bottom"
+					>
+						<div
+							style="
+								height: 1080px;
+								display: flex;
+								flex-direction: column;
+								align-items: center;
+							"
+						>
+							<h2 style="font-size: 2.28em">
+								Зависимость анимации<br />от размера устройства
+							</h2>
+							<img width="1500" src="assets/devices.gif" />
+						</div>
+					</section>
+				</section>
+
+				<!-- SLIDE 8 -->
+				<section>
+					<section
+						data-background-image="assets/slide-4-4-background.svg"
+						data-background-size="13.2% 20.5%"
+						data-background-position="left top"
+					>
+						<div
+							style="
+								height: 1080px;
+								display: flex;
+								flex-direction: column;
+								justify-content: center;
+								align-items: center;
+							"
+						>
+							<img src="assets/slide-8-image.png" />
+							<h2 style="font-size: 2.28em">Характер анимации</h2>
+							<span
+								style="font-size: 2.28em; font-family: Caveat; color: #e30613"
+								>Как его изменить?</span
+							>
+						</div>
 					</section>
 				</section>
 			</div>
@@ -163,7 +460,7 @@
 				center: false,
 
 				// Learn about plugins: https://revealjs.com/plugins/
-				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ]
+				plugins: [RevealMarkdown, RevealHighlight, RevealNotes],
 			});
 		</script>
 	</body>
