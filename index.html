@@ -286,7 +286,7 @@
 								gap: 80px;
 							"
 						>
-							<h2 style="font-size: 2em">Саккада (20 - 200 мс)</h2>
+							<h2 style="font-size: 2em">Саккада (20-200мс)</h2>
 							<img
 								style="border: 2px solid #1a1a1a"
 								width="1300"
@@ -309,7 +309,7 @@
 								gap: 80px;
 							"
 						>
-							<h2 style="font-size: 2em">Фиксация (100 - 500 мс)</h2>
+							<h2 style="font-size: 2em">Фиксация (100-500мс)</h2>
 							<img
 								style="border: 2px solid #1a1a1a"
 								width="1000"
@@ -434,8 +434,310 @@
 							<h2 style="font-size: 2.28em">Характер анимации</h2>
 							<span
 								style="font-size: 2.28em; font-family: Caveat; color: #e30613"
-								>Как его изменить?</span
-							>
+								>Как его изменить?
+							</span>
+						</div>
+					</section>
+
+					<section
+						data-background-image="assets/slide-8-2-background.svg"
+						data-background-size="23.0% 21.3%"
+						data-background-position="right bottom"
+					>
+						<div
+							style="
+								height: 1080px;
+								display: flex;
+								flex-direction: column;
+								align-items: center;
+							"
+						>
+							<h2 style="font-size: 2.28em">Ускорение / замедление</h2>
+							<img width="1500" src="assets/curves.gif" />
+						</div>
+					</section>
+
+					<section
+						data-background-image="assets/slide-8-3-background.svg"
+						data-background-size="23.0% 21.3%"
+						data-background-position="right top"
+					>
+						<div
+							style="
+								height: 1080px;
+								display: flex;
+								align-items: center;
+								justify-content: center;
+							"
+						>
+							<div style="text-align: left; position: relative">
+								<h2 style="font-size: 1.52em; margin-bottom: 70px">
+									Основные<br />временные функции:
+								</h2>
+								<ul style="font-size: 1.14em; font-weight: 700">
+									<li class="fragment fade-up" style="margin-bottom: 15px">
+										Linear
+									</li>
+									<li class="fragment fade-up" style="margin-bottom: 15px">
+										Ease
+									</li>
+									<li class="fragment fade-up" style="margin-bottom: 15px">
+										Ease-in
+									</li>
+									<li class="fragment fade-up" style="margin-bottom: 15px">
+										Ease-out
+									</li>
+									<li class="fragment fade-up" style="margin-bottom: 15px">
+										Ease-in-out
+									</li>
+									<li class="fragment fade-up">etc</li>
+								</ul>
+
+								<img
+									src="assets/bracker-element.svg"
+									width="112"
+									height="445"
+									style="
+										position: absolute;
+										left: -190px;
+										top: 200px;
+										transform: rotate(180deg);
+									"
+								/>
+							</div>
+
+							<img src="assets/slide-8-3-image.png" width="770" height="770" />
+						</div>
+					</section>
+				</section>
+
+				<!-- SLIDE 9 -->
+				<section>
+					<style>
+						.animatedBlock {
+							display: flex;
+							flex-direction: column;
+							justify-content: center;
+							align-items: center;
+
+							width: 30vw;
+							height: 22vh;
+						}
+
+						.animatedBlock--translate {
+							align-self: flex-start;
+							transition: transform 1800ms ease;
+						}
+
+						.animatedBlock--scale,
+						.animatedBlock--rotate {
+							align-self: center;
+							transition: transform 1000ms ease;
+						}
+
+						.animatedBlock--skew {
+							align-self: center;
+							transition: transform 1000ms ease;
+						}
+
+						.start {
+							width: 200px;
+							height: 100px;
+
+							display: flex;
+							align-items: center;
+							justify-content: center;
+
+							background-color: #e30613;
+
+							position: absolute;
+							bottom: 0;
+							left: 0;
+
+							font-size: 30px;
+							color: #fff;
+
+							cursor: pointer;
+						}
+
+						.start:hover ~ .animatedBlock--translate {
+							transform: translate(calc(1920px - 30vw), calc(1080px - 30vh));
+						}
+
+						.start:hover ~ .animatedBlock--scale {
+							transform: scale(2);
+						}
+
+						.start:hover ~ .animatedBlock--rotate {
+							transform: rotate(360deg);
+						}
+
+						.start:hover ~ .animatedBlock--skew {
+							transform: skew(-5deg, -30deg);
+						}
+					</style>
+					<section
+						data-background-image="assets/slide-4-background.svg"
+						data-background-size="11.9% 41.8%"
+						data-background-position="right bottom"
+					>
+						<div
+							style="
+								height: 1080px;
+								display: flex;
+								justify-content: center;
+								align-items: center;
+							"
+						>
+							<h2 style="font-size: 2.28em; font-weight: 900">
+								CSS трансформации
+							</h2>
+						</div>
+					</section>
+
+					<section>
+						<div
+							style="
+								height: 1080px;
+								display: flex;
+								align-items: center;
+								justify-content: center;
+								gap: 152px;
+							"
+						>
+							<img src="assets/slide-9-2-image.png" width="865" height="647" />
+
+							<div style="text-align: left; position: relative">
+								<h2 style="font-size: 1.52em; margin-bottom: 70px">
+									Доступные<br />на текущий момент<br />трансформации
+								</h2>
+								<ul style="font-size: 1.14em; font-weight: 700">
+									<li class="fragment fade-up" style="margin-bottom: 15px">
+										Смещение
+									</li>
+									<li class="fragment fade-up" style="margin-bottom: 15px">
+										Вращение
+									</li>
+									<li class="fragment fade-up" style="margin-bottom: 15px">
+										Масштабирование
+									</li>
+									<li class="fragment fade-up" style="margin-bottom: 15px">
+										Наклон
+									</li>
+								</ul>
+
+								<img
+									src="assets/bracker-element.svg"
+									width="278"
+									height="681"
+									style="
+										position: absolute;
+										left: 480px;
+										top: 350px;
+										transform: rotate(15deg) scale(1.3);
+									"
+								/>
+							</div>
+						</div>
+					</section>
+
+					<section>
+						<div
+							style="
+								height: 1080px;
+								display: flex;
+								flex-direction: column;
+								position: relative;
+								gap: 50px;
+							"
+						>
+							<h2>Как это выглядит на деле</h2>
+
+							<div class="start">Hover me!</div>
+
+							<div class="animatedBlock animatedBlock--translate">
+								<div
+									style="width: 100%; height: 100%; background-color: #e30613"
+								></div>
+								<span style="font-family: Caveat; font-size: 1.4em"
+									>Смещение</span
+								>
+							</div>
+						</div>
+					</section>
+
+					<section>
+						<div
+							style="
+								height: 1080px;
+								display: flex;
+								flex-direction: column;
+								position: relative;
+								gap: 30%;
+							"
+						>
+							<h2>Как это выглядит на деле</h2>
+
+							<div class="start">Hover me!</div>
+
+							<div class="animatedBlock animatedBlock--scale">
+								<div
+									style="width: 100%; height: 100%; background-color: #e30613"
+								></div>
+								<span style="font-family: Caveat; font-size: 1.4em"
+									>Масштабирование</span
+								>
+							</div>
+						</div>
+					</section>
+
+					<section>
+						<div
+							style="
+								height: 1080px;
+								display: flex;
+								flex-direction: column;
+								position: relative;
+								gap: 30%;
+							"
+						>
+							<h2>Как это выглядит на деле</h2>
+
+							<div class="start">Hover me!</div>
+
+							<div class="animatedBlock animatedBlock--rotate">
+								<div
+									style="width: 100%; height: 100%; background-color: #e30613"
+								></div>
+								<span style="font-family: Caveat; font-size: 1.4em"
+									>Вращение</span
+								>
+							</div>
+						</div>
+					</section>
+
+					<section>
+						<div
+							style="
+								height: 1080px;
+								display: flex;
+								flex-direction: column;
+								position: relative;
+								gap: 30%;
+							"
+						>
+							<h2>Как это выглядит на деле</h2>
+
+							<div class="start">Hover me!</div>
+
+							<div class="animatedBlock animatedBlock--skew">
+								<div
+									style="width: 100%; height: 100%; background-color: #e30613"
+								></div>
+								<span style="font-family: Caveat; font-size: 1.4em"
+									>Наклон</span
+								>
+							</div>
 						</div>
 					</section>
 				</section>
